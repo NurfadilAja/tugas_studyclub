@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-image-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 15px solid transparent;
+    border-image: url('https://via.placeholder.com/150') 30 round;
+    border-image-slice: 30;
+    border-image-repeat: round;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
